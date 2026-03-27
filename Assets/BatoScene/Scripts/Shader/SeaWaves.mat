@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SeaWaves
+  m_Shader: {fileID: 4800000, guid: 70a7f743dd4e1244c8a7368f190f7cee, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _ElapsedTime: 100.422424
+    - _NoiseIntensity: 0.03
+    - _NoiseSpeed: 0
+    - _NoiseStrength: 0
+    - _Wave1Intensity: 0
+    - _Wave1Speed: 0
+    - _Wave1Strength: 0
+    - _Wave2Intensity: 0.04
+    - _Wave2Speed: 0
+    - _Wave2Strength: 0.083299994
+    - _WaveAmount: 0.05
+    - _WaveIntensity: 0
+    - _WaveSpeed: 0
+    - _WaveStrength: 0
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0.52702665, b: 1, a: 1}
+    - _TopColor: {r: 0.30205047, g: 0.6483891, b: 0.89433956, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

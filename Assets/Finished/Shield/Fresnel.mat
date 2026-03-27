@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fresnel
+  m_Shader: {fileID: 4800000, guid: ab60f12bfdbd52445897bf86b758b421, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3683799f3cb0f7841a5b62bb6358415e, type: 3}
+        m_Scale: {x: 3.5, y: 3.5}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseColorIntensity: 0.048
+    - _CoordTestX: -2.36
+    - _CoordTestY: -2.76
+    - _CutAmount: 0
+    - _CutIntensity: 0.66
+    - _CutTest: 12.5
+    - _DepthFactor: 2.14
+    - _DepthPow: 1.21
+    - _FresnelIntensity: 6.2
+    - _FresnelPulseIntensity: 1
+    - _FresnelThickness: 1.04
+    - _ImpactRipple: 0.2
+    - _LineDepthPow: 1
+    - _LineDepthSize: 1
+    - _NormalIntensity: 1.01
+    - _OcclusionStr: 1
+    - _PulseIntensity: 4.39
+    - _RefractionFresnel: 6.52
+    - _RefractionStrength: 2.35
+    - _xCoord: 0
+    - _yCoord: 0
+    - xCoord: 1
+    - yCoord: 1
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0.44702482, b: 1, a: 1}
+    - _DepthColor: {r: 0.5686275, g: 0.72681653, b: 0.9529412, a: 1}
+    - _FresnelColor: {r: 0.18039215, g: 0.7283957, b: 1, a: 1}
+    - _GlintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LineDepthColor: {r: 0.6831684, g: 0.85761285, b: 0.86415094, a: 1}
+    - _PulseColor: {r: 1, g: 0.73945844, b: 0.27058828, a: 1}
+    - _TexColor: {r: 0, g: 0.73080707, b: 1, a: 1}
+    - _TextureColor: {r: 1, g: 0.5511434, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
