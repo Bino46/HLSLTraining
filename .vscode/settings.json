@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "HlslTraining.slnx"
+    "dotnet.defaultSolution": "HLSLTrainingGit.slnx"
 }

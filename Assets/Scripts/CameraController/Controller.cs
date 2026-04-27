@@ -17,6 +17,7 @@ public class Controller : MonoBehaviour
     Vector3 inputDirection;
     Vector3 moveDirection;
     Vector2 rotationDirection;
+    public int target = 300;
 
     void Awake()
     {
@@ -39,6 +40,9 @@ public class Controller : MonoBehaviour
         controller.Noclip.Pew.performed += RaycastPew;
 
         shieldMask = LayerMask.GetMask("Shield");
+
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = target;
     }
 
     void OnEnable()
@@ -108,6 +112,9 @@ public class Controller : MonoBehaviour
     {
         moveDirection = transform.forward * inputDirection.z + transform.right * inputDirection.x + transform.up * inputDirection.y;
         transform.position += moveDirection * Time.deltaTime * speed;
+
+        if(Application.targetFrameRate != target)
+            Application.targetFrameRate = target;
     }
 
 }
